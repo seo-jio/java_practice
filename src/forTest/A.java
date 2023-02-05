@@ -1,13 +1,13 @@
 package forTest;
 
 public class A {
-	
+
+	String s = "AAA";
 	public A() {
-		super();
 		System.out.println("A");
 	}
 
 	public void say() {
-		System.out.println("A");
+		System.out.println(s);
 	}
 }
